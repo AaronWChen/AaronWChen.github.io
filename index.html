@@ -54,11 +54,11 @@
         <h1 class="mb-0">Aaron W.
           <span class="text-primary">Chen, Ph. D.</span>
         </h1>
-        <div class="subheading mb-5">Data Scientist · Photographer · Chemical Engineer <br>
+        <div class="subheading mb-5">Data Scientist · Chemical Engineer · Photographer <br>
           <a href="mailto:aaron@composedandfocusedstudios.com">aaron@composedandfocusedstudios.com</a>
         </div>
         <!-- <div class="subheading mb-1"><a href="mailto:aaron@composedandfocusedstudios.com">Email</a></div> -->
-        <p class="lead mb-5">Aaron Chen is a (future) data scientist! Outside of data science, he has a Ph. D. 
+        <p class="lead mb-5">Aaron Washington Chen is a data scientist! Outside of data science, he has a Ph. D. 
           in Chemical Engineering; loves traveling, food, and pets; and runs a small photography business 
           called <a href="https://www.composedandfocusedstudios.com">Composed and Focused Studios!</a></p>
         <div class="social-icons">
@@ -89,31 +89,76 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Price Predicting in King County</h3>
-            <div class="subheading mb-3">Using one year of sales data to predict prices</div>
-            <p>
-              This was an initial look into real estate sales data from one year from 
-              King County, Washington, and the goal was to use the given data to make 
-              a price predictor.
-            </p>
-            <p>
-              Our group worked to make a model that not only reduced the R-squared 
-              value, but also reduced the root mean squared error (RMSE). Our time limit
-              was 4 days.
-            </p>
-            <p>
-              We ended up getting a model with a RMSE of ~$130k, but finding out that
-              our next steps would be to obtain even more data to improve the model,
-              as we found out that the regression model was still underfitting the data.
-              True to an iterative approach to data science, we will apply our learnings
-              to future work and this description and file will be updated should an 
-              improvement be devised.
-            </p>
+            <h3 class="mb-0">Predicting Prices in King County, WA</h3>
+              <!-- <h3 class="mb-0">iNKing: Buy, Buy, Buy</h3> -->
+              <div class="subheading mb-3">Using one year of sales data to predict prices</div>
+              <!-- <div class="subheading mb-3">Predicting House Prices in King County, WA</div> -->
+              <p>
+                This was an initial look into real estate sales data from King 
+                County, Washington, and the goal was to use the given one year of 
+                data to make a price predictor with linear regression.
+              </p>
+              <p>
+                My group worked to make a model that not only reduced the R-squared 
+                value, but also the root mean squared error (RMSE). Our time limit
+                was 4 days.
+              </p>
+              <p>
+                We ended up getting a model with a RMSE of ~$130k. Our next steps 
+                would be to obtain even more data to improve the model, as we 
+                found out that the regression was still underfitting the data, 
+                even though we were hybridizing the source data. True to an 
+                iterative approach to data science, we will apply our learnings
+                to future work and this description and file will be updated 
+                should an improvement be devised.
+              </p>
+
+            <h3 class="mb-0">How are Soccer Wins Affected by Rain?</h3>
+              <!-- <h3 class="mb-0">Kickin in the Rain</h3> -->
+              <div class="subheading mb-3">Combining SQL with weather API calls</div>
+              <!-- <div class="subheading mb-3">How are Soccer Wins Affected by Rain?</div> -->
+              <p>
+                This was an exploration into a SQL database containing results
+                from one year of German soccer matches and combining queries with 
+                API calls to see if rain had an affect on these matches.
+              </p>
+              <p>
+                This was a solo project and I worked to make visualizations of 
+                result (win/loss/tie) percentage for each team in this German league
+                and adding another batch of result percentage when rain on the 
+                match day was added.
+              </p>
+              <p>
+                I decided to use stacked vertical bar plots for these results.
+                While these kinds of plots are contentious visualizations, I felt
+                that they were sensical here because each team played the same 
+                number of matches and thus it would be very easy to see the result
+                percentages for each of the teams in the league.
+              </p>
+              <p>
+                Next steps would be to granularize the weather data even further.
+                The MVP only checked for rain on the match day in Berlin, however
+                the API could actually check for hourly weather data. In addition,
+                not every team in this league plays in Berlin. In order to make 
+                these improvements to the model, it will be necessary to consult 
+                with soccer experts who know when and where each of the teams 
+                played.
+              </p>
           </div>
           <div class="resume-date text-md-right">
             <a href="jupyter_notebooks/Mod01_Project/mod01_project_king_county.html" class="text-primary">View Jupyter Notebook</a>
+            <a href="jupyter_notebooks/Mod02_Project/mod02_project_soccer_in_the_rain.html" class="text-primary">View Jupyter Notebook</a>
           </div>
         </div>
+
+        <!-- <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content"> -->
+            
+          <!-- </div> -->
+          <div class="resume-date text-md-right">
+            <a href="jupyter_notebooks/Mod02_Project/mod02_project_soccer_in_the_rain.html" class="text-primary">View Jupyter Notebook</a>
+          </div>
+        <!-- </div> -->
 
       </div>
 
