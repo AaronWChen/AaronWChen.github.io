@@ -6,19 +6,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Quick Blurb about Aaron Chen</title>
+  <title>Quick Blurb about Aaron Washington Chen</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 
   <!-- Custom styles for this template -->
-  <!-- <link href="css/resume.css" rel="stylesheet"> -->
   <link href="css/resume_aaron.css" rel="stylesheet">
 
 </head>
@@ -51,13 +51,13 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
-        <h1 class="mb-0">Aaron W.
-          <span class="text-primary">Chen, Ph. D.</span>
+        <h1 class="mb-0">Aaron Washington Chen,
+          <span class="text-primary">Ph. D.</span>
         </h1>
         <div class="subheading mb-5">Data Scientist · Chemical Engineer · Photographer <br>
           <a href="mailto:aaron@composedandfocusedstudios.com">aaron@composedandfocusedstudios.com</a>
         </div>
-        <!-- <div class="subheading mb-1"><a href="mailto:aaron@composedandfocusedstudios.com">Email</a></div> -->
+        
         <p class="lead mb-5">Aaron Washington Chen is a data scientist! Outside of data science, he has a Ph. D. 
           in Chemical Engineering; loves traveling, food, and pets; and runs a small photography business 
           called <a href="https://www.composedandfocusedstudios.com">Composed and Focused Studios!</a></p>
@@ -68,13 +68,13 @@
           <a href="https://github.com/AaronWChen">
             <i class="fab fa-github"></i>
           </a>
-          <a href="https://twitter.com/CronoZero">
+          <a href="https://twitter.com/awashingtonchen">
             <i class="fab fa-twitter"></i>
           </a>
           <a href="https://scholar.google.com/citations?hl=en&user=kGv2X_4AAAAJ">
             <i class="ai ai-google-scholar"></i>
           </a>
-          <a href="https://www.researchgate.net/profile/Aaron_Chen9">
+          <a href="https://www.researchgate.net/profile/Aaron_Chen12">
             <i class="ai ai-researchgate"></i>
           </a>
         </div>
@@ -90,7 +90,7 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Predicting Prices in King County, WA</h3>
-              <!-- <h3 class="mb-0">iNKing: Buy, Buy, Buy</h3> -->
+              <!-- <h3 class="mb-0">iN King: Buy, Buy, Buy</h3> -->
               <div class="subheading mb-3">Using one year of sales data to predict prices</div>
               <!-- <div class="subheading mb-3">Predicting House Prices in King County, WA</div> -->
               <p>
@@ -160,6 +160,7 @@
           </div>
         </div>
 
+
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">GPAs at UW Madison</h3>
@@ -168,7 +169,7 @@
               <!-- <div class="subheading mb-3">Hypothesis Testing with a SQL Database of UW Madison GPAs</div> -->
               <p>
                 This was an exploration into a SQL database containing GPAs from 
-                UW Madison to perform hypothesis testing.
+                over 10 years of grades at UW Madison to perform hypothesis testing.
               </p>
               <p>
                 This was a pair project and we were able to ask and answer 6 
@@ -186,12 +187,143 @@
               <p>
                 Next steps would be to check for and remove possible data leakage
                 and cross validation issues. This dataset is pretty open ended
-                and can provide for many questions to ask and attempt to answer
+                and can provide for many questions to ask and attempt to answer.
               </p>
           </div>
 
           <div class="resume-date text-md-right">
             <a href="jupyter_notebooks/Mod03_Project/mod03_project_uw_madison_gpas.html" class="text-primary">View Jupyter Notebook</a>
+          </div>
+        </div>
+
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">US Real Estate Investments</h3>
+              <!-- <h3 class="mb-0">Take the Money and Run</h3> -->
+              <div class="subheading mb-3">Conducting Time Series Forecasting to Predict Returns 3 Years into the Future</div>
+              <!-- <div class="subheading mb-3">Hypothesis Testing with a SQL Database of UW Madison GPAs</div> -->
+              <p>
+                This was an exploration into a large CSV from Zillow containing 
+                national real estate sales data over 100 years. 
+              </p>
+              <p>
+                This was initially a pair project but had to be adapted to a 
+                solo one. The goal was to find the five zipcodes that were best
+                to purchase property in. The time limit was 4 days. 
+              </p>
+              <p>
+                This project was very open ended and was a good challenge. The 
+                dataset of over 15,000 zipcodes was too large to investigate
+                each record effectively and required creative thinking to filter
+                down the data into something that could be analyzed.
+              </p>
+              <p>
+                Using other resources (economics data and forecasts, Zillow trend
+                data, and news reports), I created my own metrics for "best investment"
+                and potential housing values. I chose zipcodes with high recent search
+                trend activity, consistent pricing trends since the 2008 recession,
+                large housing supply, and lower negative mortgage percentage.
+              </p>
+              <p>
+                To be clear, my actual recommendation for a hypothetical client
+                with this money to invest was to not spend it on real estate due
+                to strong signs for another recession. However, if the client 
+                insisted on real estate, these were the options I presented.
+              </p>
+              <p>
+                Next steps would be to compare projections from the model to 
+                more recent pricing data and economic reports. In addition, it 
+                would be interesting to compare the results from this Facebook 
+                Prophet model with individualized ARIMA models.
+              </p>
+          </div>
+
+          <div class="resume-date text-md-right">
+            <a href="jupyter_notebooks/Mod04_Project/mod04_project_time_series_forecasting.html" class="text-primary">View Jupyter Notebook</a>
+          </div>
+        </div>
+
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Finding Risk of Drug Users to Take Other Drugs</h3>
+              <!-- <h3 class="mb-0">Take the Money and Run</h3> -->
+              <div class="subheading mb-3">Classifying drug users to determine likelihood of taking other drugs</div>
+              <!-- <div class="subheading mb-3">Hypothesis Testing with a SQL Database of UW Madison GPAs</div> -->
+              <p>
+                This was an exploration into a small dataset containing public
+                surveys of drug users. 
+              </p>
+              <p>
+                This was a group project that used simple collaboration. 
+                The goal was to find our own data to analyze and to determine 
+                the scale of the project ourselves. We decided to use a small 
+                dataset and use a variety of classifier methods to have a very
+                fast turnaround time of 2 business days for a simple MVP. 
+              </p>
+              <p>
+                This project was open ended and different from the others. We chose
+                our constraints to give us more time to work on larger, independent
+                projects.
+              </p>
+              <p>
+                For such a fast turnaround time with an open ended project, the results
+                seemed satisfactory for exploratory data analysis.
+              </p>
+              <p>
+                Next steps would be to further fine tune a user/business case 
+                for the data (hospitals? government? public policy?) in order to
+                improve the metrics and deliverables for the classifier models.
+              </p>
+          </div>
+
+          <div class="resume-date text-md-right">
+            <a href="jupyter_notebooks/Mod05_Project/mod05_project_classifier_algorithms.html" class="text-primary">View Jupyter Notebook</a>
+          </div>
+        </div>
+
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">MeaLeon</h3>
+              <div class="subheading mb-3">Using Machine Learning and Natural Language Processing to Find New Foods</div>
+              <p>
+                MeaLeon uses machine learning and natural language processing to 
+                suggest new dishes! It takes in a user's dish and the cuisine 
+                it's from, looks in a static database, and returns 5 dishes with 
+                similar ingredients but different cuisines.
+              </p>
+              <p>
+                The inspiration for MeaLeon has several combined origin stories. 
+                I once was making ground beef tacos and realized too late that I 
+                ran out of cumin. So, I grabbed the closest thing in my pantry
+                that was mostly cumin: garam masala. Suddenly, Tex-Mex tacos
+                turned into something more like roti. This reminded me of a friend
+                who hated sauerkraut and kim chi, and she quipped "every
+                culture has a disgusting fermented cabbage dish." Lastly, I can
+                get bored of my go to dishes and was seeking an easier way to 
+                create new dishes using mostly the same ingredients. These 
+                experiences and thoughts made me wish for something like MeaLeon
+                to exist.
+              </p>
+              <p>
+                This solo project combines quite a few different technologies into
+                one full stack data science web app. The MVP is deployed on Heroku
+                via a Flask app and uses primarily Python 3, RESTful API,
+                HTML, and CSS. Improvements will incorporate web scraping, AWS 
+                services, MongoDB, classifier algorithms, and likely neural networks.
+              </p>
+              <p>
+                Next steps would be to increase the number of recipes in the database
+                via scraping recipe sites from different cuisines, adding more cuisines
+                as classifier targets, and perform more advanced machine learning 
+                on unclassified recipes to further add recipes into the database.
+              </p>
+          </div>
+
+          <div class="resume-date text-md-right">
+            <a href="jupyter_notebooks/Mod05_Project/mod05_project_classifier_algorithms.html" class="text-primary">View Jupyter Notebook</a>
           </div>
         </div>
       </div>
