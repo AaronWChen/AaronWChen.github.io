@@ -5,3 +5,5 @@ node_modules
 .DS_Store
 img/.DS_Store
 jupyter_notebooks/.DS_Store
+
+.vscode/
