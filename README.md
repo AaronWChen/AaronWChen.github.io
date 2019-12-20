@@ -1,6 +1,15 @@
-# Portfolio Website Template
+# Portfolio Website
+## Author:
+### Aaron Washington Chen [GitHub](https://github.com/AaronWChen)
 
-Template for Flatiron School Data Science students to build a portfolio website
+
+## Result
+Go [here](https://aaronwchen.github.io/) to see the portfolio!
+
+
+## Template Description
+This is made from a template for Flatiron School Data Science students to build a portfolio website. It was forked from [Erin Hoffman(https://github.com/hoffm386/startbootstrap-resume)], who taught our cohort how to use this.
+
 
 ## To use:
 1. Make a fork of this repository
@@ -10,6 +19,7 @@ Template for Flatiron School Data Science students to build a portfolio website
 5. Replace `img/profile.jpg` with a photo of you, and `jupyter_notebooks/example.html` with your actual exported Jupyter Notebook (see explanation below for how to export a Jupyter Notebook as HTML)
 6. Git commit and push
 7. Now your website is live!  It might take a couple minutes the first time around, but you should be able to navigate to `https://<your github username>.github.io` in the browser to see your live portfolio.  This is a service of GitHub, called [GitHub Pages](https://help.github.com/en/articles/what-is-github-pages)
+
 
 ### To export your Jupyter Notebook:
 1. In the same directory as the notebook, run `jupyter nbconvert <your notebook name>.ipynb --to html --output <output file name>.html` (for more details about the different `nbconvert` options, see the [documentation](https://nbconvert.readthedocs.io/en/latest/usage.html))
@@ -31,6 +41,7 @@ Start Bootstrap was created by and is maintained by **[David Miller](http://davi
 * https://github.com/davidtmiller
 
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
 
 ## Copyright and License
 
