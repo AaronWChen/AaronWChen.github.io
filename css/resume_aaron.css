@@ -160,6 +160,26 @@ section.resume-section .resume-item .resume-date {
   min-width: none;
 }
 
+section.about-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+  background: url('https://aaronwchen.github.io/img/portfolio.png');
+  background-size: cover;
+}
+
+.container-fluid:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(10px);
+  background: inherit;
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
