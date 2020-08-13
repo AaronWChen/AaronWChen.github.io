@@ -163,7 +163,7 @@ section.resume-section .resume-item .resume-date {
 section.about-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
-  max-width: 75rem;
+  max-width: none;
   background: url('https://aaronwchen.github.io/img/about_bg.jpg');
   background-size: cover;
 }
